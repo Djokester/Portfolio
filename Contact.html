@@ -2,7 +2,6 @@
 <html>
 <head>
 <style>
-
 body{
   margin:0;
 }
@@ -11,8 +10,8 @@ html {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
+height:100%;
+width:100%;
 }
 
 
@@ -21,7 +20,7 @@ ul.a {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    margin-top:10%;
+    margin-top:0%;
     position: fixed;
     float: left;
     width: 17%;
@@ -31,7 +30,7 @@ ul.b {
   list-style-type: none;
     margin: 0;
     padding: 0;
-    margin-top:10%;
+    margin-top:0%;
     position: fixed;
     float:right;
 margin-left:95%;
@@ -48,7 +47,9 @@ li.c a {
     text-decoration:none;
     text-shadow: 5px 5px 10px black;
    font-size:60%;
-border-radius: 50%
+border-radius: 50%;
+width:110%;
+height:110%;
 
 }
 
@@ -66,11 +67,40 @@ text-align: center;
     text-decoration:none;
     
 }
+header{
+margin-top:0;
+margin-left:35%;
+margin-right:55%
+} 
+
+section
+{
+	margin-top:0;
+margin-left:25%;
+margin-right:10%;
+opacity: 0.5;
+filter: alpha(opacity=50);
+background-color:#3c4262;
+color:white;
+}
+
+section.a
+{
+	margin-top:1%;
+margin-left:25%;
+margin-right:10%;
+opacity: 0.5;
+filter: alpha(opacity=50);
+background-color:#ffc0cb
+}
+
 </style>
 </head>
 
 <body>
-
+<header>
+<img src="Header.gif" style="Height:170%; width:290%">
+</header>
 <ul class="a">
   <li class="c"><a href="Portfolio.html">Home</a></li>
   <li class="c"><a  href="Academics.html">Academics</a></li>
@@ -85,6 +115,24 @@ text-align: center;
    <li><a target="_blank" href="https://www.quora.com/profile/Samriddhi-Sinha"><img src="quora.png" style="height:75%;width:75%";></a> </li>
    <li><a target="_blank" href="https://www.linkedin.com/in/samriddhisinha"><img src="linkedin.png" style="height:75%;width:75%";></a> </li>
 </ul>
+
+<section>
+
+<span style="font-size:24px">Email</span><br>
+<span style="font-size:16px">You can drop me a mail at samriddhidjokester@gmail.com</span> 
+</section>
+
+<section class="a">
+
+<span style="font-size:24px">Instagram</span><br>
+<span style="font-size:16px">Follow me @samriddhidjokester</span> 
+</section>
+
+<section class="a" style="background-color:#00509a">
+
+<span style="font-size:24px">Github</span><br>
+<span style="font-size:16px">My Github Username is Djokester and I have created a public repository by the name of Portfolio which includes HTML and CSS files used for making this website</span> 
+</section>
 
 </body>
 </html>
