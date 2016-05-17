@@ -49,7 +49,8 @@ li.c a {
     text-align: center;
     text-decoration:none;
     text-shadow: 5px 5px 10px black;
-   font-size:70%;
+ font-size:78%;
+font-weight:900;
 border-radius: 50%;
 width:110%;
 height:110%;
@@ -68,6 +69,7 @@ width: 117%;
 padding-left:20px;
 text-align: center;
     text-decoration:none;
+transition: 0.5s;
     
 }
 header{
@@ -94,15 +96,35 @@ margin-left:25%;
 margin-right:10%;
 opacity: 0.5;
 filter: alpha(opacity=50);
-background-color:#ffc0cb
+background-color:#ffc0cb;
+
 }
+img.d:hover {
+-moz-transform: rotateY(360deg);	
+    -ms-transform: rotateY(360deg) ; 
+    -webkit-transform: rotateY(360deg) ; 
+    transform: rotateY(360deg) ; 
+transition: 4s;
+
+
+}
+
+img.c:hover{
+-moz-transform: rotate(20deg);	
+    -ms-transform: rotate(20deg) ; 
+    -webkit-transform: rotate(20deg) ; 
+    transform: rotate(20deg) ; 
+transition: 0.5s;
+}
+
+
 
 </style>
 </head>
 
 <body>
 <header>
-<img src="Header.gif" style="Height:170%; width:290%">
+<img class="d" src="Header.gif" style="Height:170%; width:290%">
 </header>
 <ul class="a">
   <li class="c"><a href="Portfolio.html">Home</a></li>
@@ -112,11 +134,11 @@ background-color:#ffc0cb
 </ul>
 
 <ul class="b">
-   <li><a target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=samriddhidjokestersinha@gmail.com&su=SUBJECT&body=BODY"><img src="gmail.png" style="height:75%;width:75%";></a></li>
-   <li><a target="_blank" href="https://fb.com/samriddhi.sinha.7"><img src="fb.jpg" style="height:75%;width:75%";></a> </li>
-   <li><a target="_blank" href="https://twitter.com/samdjokester"><img src="twitter.png" style="height:75%;width:75%";> </a></li>
-   <li><a target="_blank" href="https://www.quora.com/profile/Samriddhi-Sinha"><img src="quora.png" style="height:75%;width:75%";></a> </li>
-   <li><a target="_blank" href="https://www.linkedin.com/in/samriddhisinha"><img src="linkedin.png" style="height:75%;width:75%";></a> </li>
+   <li><a target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=samriddhidjokestersinha@gmail.com&su=SUBJECT&body=BODY"><img class="c" src="gmail.png" style="height:75%;width:75%";></a></li>
+   <li><a target="_blank" href="https://fb.com/samriddhi.sinha.7"><img class="c" src="fb.jpg" style="height:75%;width:75%";></a> </li>
+   <li><a target="_blank" href="https://twitter.com/samdjokester"><img class="c" src="twitter.png" style="height:75%;width:75%";> </a></li>
+   <li><a target="_blank" href="https://www.quora.com/profile/Samriddhi-Sinha"><img class="c"  src="quora.png" style="height:75%;width:75%";></a> </li>
+   <li><a target="_blank" href="https://www.linkedin.com/in/samriddhisinha"><img class="c" src="linkedin.png" style="height:75%;width:75%";></a> </li>
 </ul>
 
 <section>
